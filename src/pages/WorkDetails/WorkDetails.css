@@ -1,0 +1,73 @@
+.dashboard-container {
+    margin: 20px auto; 
+    max-width: 800px; 
+    font-family: Arial, sans-serif;
+    padding: 10px; 
+    margin-left: 100px;
+  }
+  
+  .dashboard-header {
+    text-align: left; 
+    margin-bottom: 20px;
+  }
+  
+  .repeated-structure {
+    margin-bottom: 40px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+  }
+  
+  .year-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+  }
+  
+  .ux-text {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .section {
+    margin-top: 5px;
+    text-align: left; 
+  }
+  
+  .image-container {
+    margin-top: 10px;
+    text-align: left; 
+  }
+  
+  .square-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left; 
+    }
+  
+    .square-image {
+      width: 100%; 
+      height: auto; 
+    }
+  }
+  

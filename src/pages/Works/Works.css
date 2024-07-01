@@ -1,0 +1,48 @@
+.container1 {
+    margin-left: 100px;
+  }
+  
+  .featured-work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .work-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .work-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .work-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .blue-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+  }
+  
+  .dashboard {
+    display: inline-block;
+    margin: 0;
+  }
+  
